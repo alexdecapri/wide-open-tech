@@ -16,14 +16,16 @@ body, html {
 	background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
 	background-size: cover;
 	background-position: center;
+	display: block;
 }
 
 .header-stuff {
 	position: absolute;
 	margin-top: 25px;
-	margin-left: 8%;
-	margin-right: 8%;
-	width: 84%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 0;
+	width: 90%;
 	height: 80px;
 }
 
@@ -32,27 +34,42 @@ body, html {
 	float: left;
 	display: inline-block;
 	height: 50%;
-	display: absolute;
+	display: relative;
 	width: 200px;
-	margin-right: 8%;
+	/*margin-right: 8%;*/
 
 }
 
 .top-bar {
-
+	height: 100%;
+	width: 65%;
+	position: relative;
+	/*margin: 0 auto;*/
+	display: inline-block;
+	top: 10px;
+	float: right;
+	
 }
 
 .top-bar-link {
-	top: 15px;
 	color: #fff;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 2px;
+	text-align: center;
 	text-transform: uppercase;
+	text-decoration: none;
 	display: inline;
-	margin-right: 3%;
+	margin-right: 2%;
 	float: left;
 
+
+
+}
+
+a > .top-bar-link {
+	padding-left: 34px;
+	padding-top: 10px;
 }
 
 .top-bar-link a {
@@ -65,5 +82,66 @@ body, html {
 }
 
 .contact-btn {
+	background-color: #bdd537;
+	height: 45px;
+	width: 160px;
+	border-radius: 4px;
+	display: inline;
+	float: left;
+	top: -10px;	
+	position: absolute;
+	margin-right: 0;
 
 }
+
+/*.contact-btn:first-child {
+	text-align: center;
+	vertical-align: middle;
+}*/
+
+
+.contact-btn:hover {
+	background-color: #C8E138;
+}
+
+
+.row2 {
+	background-color: #F0F0F0;
+	height: 350px;
+	width: 100%;
+	position: relative;
+	display: block;
+	margin-top: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.row2 p {
+	font-weight: 300;
+	font-size: 23px;
+	line-height: 38px;
+	color: #40666d;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+.row2 img {
+	margin: -8px auto;
+	display: block;
+}
+
+.row3 {
+	background-color: #FFFFFF;
+	height: 540px;
+	width: 100%;
+	display: block;
+}
+
+
+
+
