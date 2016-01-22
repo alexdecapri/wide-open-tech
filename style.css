@@ -1,0 +1,69 @@
+body, html {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.top-main {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.header-stuff {
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 8%;
+	margin-right: 8%;
+	width: 84%;
+	height: 80px;
+}
+
+.logo-main {
+	background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-logo-whitex2.svg");
+	float: left;
+	display: inline-block;
+	height: 50%;
+	display: absolute;
+	width: 200px;
+	margin-right: 8%;
+
+}
+
+.top-bar {
+
+}
+
+.top-bar-link {
+	top: 15px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	display: inline;
+	margin-right: 3%;
+	float: left;
+
+}
+
+.top-bar-link a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.top-bar-link a:hover {
+	color: #bdd537;
+}
+
+.contact-btn {
+
+}
