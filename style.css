@@ -9,6 +9,11 @@ body, html {
 	margin: 0;
 }
 
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
 .top-main {
 	width: 100%;
 	height: 500px;
@@ -140,7 +145,103 @@ p {
 	height: 540px;
 	width: 100%;
 	display: block;
+	position: relative;
 }
+
+.row3-block {
+	background-color: #FFFFFF;
+	width: calc(100% / 3);
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.row3-block p {
+	color: #8F878E;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 20px;
+}
+
+.row3-block img {
+	padding-top: 50px;
+	height: 160px;
+}
+
+.row3-block div a {
+	color: #bdd537;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.row3-block div img {
+	height: 40px;
+	width: 50px;
+	padding: 0;
+}
+
+
+.row4 {
+	background-color: #F0F0F0;
+	height: 800px;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.row5 {
+	background-color: #BDD537;
+	height: 650px;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.row5-title {
+	margin: 0 auto;
+	width: 100%;
+	height: 60px;
+}
+
+.row5-title h1 {
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: 300;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.row5-main {
+	width: 900px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: space-around;
+	align-content: center;
+	height: 550px;
+	margin: 15px auto;
+}
+
+.flex-company {
+	flex-basis: 300px;
+	text-align: center;
+}
+
+.flex-company img:hover {
+  transform: scale(1.15);
+  transition: all .6s ease-out;
+
+}
+
+
+
+
+
 
 
 
